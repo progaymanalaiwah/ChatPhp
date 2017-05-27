@@ -1,0 +1,106 @@
+/* [ Start Rules Main ] */
+body
+{
+    background: #212121;
+    color: #e0e0e0;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container
+{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.clear
+{
+    clear: both;
+}
+/* [ End Rules Main ] */
+
+/* [ Start Pagr Chat ] */
+.container-chat
+{
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/* Start messages */
+.messages
+{
+    overflow: auto;
+    margin-bottom: 38px;
+}
+.messages .msg
+{
+    width: 100%;
+    position: relative;
+}
+.messages .msg .nameUser
+{
+padding: 5px 5px 5px 10px;
+    float: left;
+    margin-top: 3px;
+    font-size: 13px;
+    width: 20%;
+    text-align: right;
+  
+}
+.messages .msg .msg-content
+{
+    padding: 3px 5px 3px 10px;
+    float: right;
+    width: 80%;
+    border-left: 1px solid #ccc;
+    font-size: 14px;
+    line-height: 1.6;
+}
+/* End messages */
+
+/* Start send-msg */
+
+.send-msg textarea
+{
+    resize: none;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    height: 38px;
+    max-width: 800px;
+    bottom: 0;
+    padding: 10px 10px;
+    background: #34393c;
+    border: 1.5px solid #6a787f;
+    border-radius: 2px;
+    color: #FFF;
+    font-size: 21px;
+    border-top: 0;
+
+}
+.send-msg textarea:focus
+{
+    outline: 0;
+    border: 1px solid #495054;
+}
+/* End send-msg */
+/* [ End Page Chat ] */
+
+
+
+.example{
+    margin-top: 20px;
+
+}
+.example span
+{
+    color: #1abc9c;
+    font-weight: bold;
+    text-decoration:underline;
+}
